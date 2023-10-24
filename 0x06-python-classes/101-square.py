@@ -52,5 +52,5 @@ class Square:
 
     def __str__(self):
         """no time"""
-        my_print()
+        self.my_print()
         return ""
