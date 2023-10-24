@@ -42,9 +42,10 @@ class Square:
 
     def my_print(self):
         """no time"""
+        if self.__size == 0:
+            print("")
+            return
         [print("") for x in range(self.__position[1])]
         for i in range(self.__size):
             print(" "*self.__position[0], end='')
             print("#"*self.__size)
-        if self.__size == 0:
-            print("")
