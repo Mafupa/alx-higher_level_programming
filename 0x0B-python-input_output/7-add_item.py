@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""widl guess"""
 
 
 from sys import argv
