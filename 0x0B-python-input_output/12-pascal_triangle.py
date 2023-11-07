@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""pascal_triangle"""
 
 
 def pascal_triangle(n):
+    """pascal_triangle"""
     triangle = []
     for i in range(n):
         if i == 0:

@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""append_after"""
 
 
 def append_after(filename="", search_string="", new_string=""):
+    """append_after"""
     with open(filename, 'r', encoding='utf-8') as f:
         lines = []
         while True:
