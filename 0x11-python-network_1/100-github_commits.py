@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""list 10 commits (from the most recent to oldest) of the repository arg1 by the user arg2"""
+"""list 10 commits of the repository arg1 by the user arg2"""
 
 import sys
 import requests
